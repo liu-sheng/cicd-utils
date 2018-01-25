@@ -1,4 +1,4 @@
-#!/bin/bass
+#!/bin/bash
 
 for pid in `ps -ef |grep /usr/local/bin/nodepool-luancher |grep -v grep | awk '{print $2}'`
 do
